@@ -5,7 +5,8 @@
 <footer>
 
 # -- Type --
-# 以下のどれか一つ
+# 以下のどれか一つ（feat、fix、chore 以外は使いたい人が使えば良い）
+#
 # feat: 機能追加。semver minor が上がる。
 # fix: バグフィックス。semver patch が上がる。
 # docs: ドキュメントの更新のみで、コードに変更がない。
