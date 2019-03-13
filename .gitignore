@@ -7,3 +7,6 @@ coverage/
 
 # local config files
 *local.*
+
+# TypeScript outDir
+lib/
