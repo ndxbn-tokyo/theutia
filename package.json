@@ -1,50 +1,50 @@
 {
-  "private": true,
-  "name": "theutia",
-  "version": "0.0.0",
-  "description": "A TypeScript Web Application Framework",
-  "scripts": {
-    "test": "node --version",
-    "pretest": "run-s lint",
-    "lint": "run-p lint:*",
-    "lint:prettier": "prettier -l \"**/*\"",
-    "fmt": "run-s format",
-    "format": "run-s format:*",
-    "format:prettier": "prettier --write \"**/*\""
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
-    "@commitlint/config-conventional": "^7.5.0",
-    "@commitlint/config-lerna-scopes": "^7.5.1",
-    "@commitlint/travis-cli": "^7.5.2",
-    "@types/node": "^10.12.30",
-    "husky": "^1.3.1",
-    "jest": "^24.5.0",
-    "lerna": "^3.13.1",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^1.16.4",
-    "typescript": "^3.3.3333"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ndxbn-tokyo/theutia.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ndxbn-tokyo/theutia/issues"
-  },
-  "homepage": "https://github.com/ndxbn-tokyo/theutia#readme",
-  "dependencies": {
-    "yarn": "^1.13.0"
-  }
+	"private": true,
+	"name": "theutia",
+	"version": "0.0.0",
+	"description": "A TypeScript Web Application Framework",
+	"scripts": {
+		"test": "node --version",
+		"pretest": "run-s lint",
+		"lint": "run-p lint:*",
+		"lint:prettier": "prettier -l \"**/*\"",
+		"fmt": "run-s format",
+		"format": "run-s format:*",
+		"format:prettier": "prettier --write \"**/*\""
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^7.5.2",
+		"@commitlint/config-conventional": "^7.5.0",
+		"@commitlint/config-lerna-scopes": "^7.5.1",
+		"@commitlint/travis-cli": "^7.5.2",
+		"@types/node": "^10.12.30",
+		"husky": "^1.3.1",
+		"jest": "^24.5.0",
+		"lerna": "^3.13.1",
+		"npm-run-all": "^4.1.5",
+		"prettier": "^1.16.4",
+		"typescript": "^3.3.3333"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ndxbn-tokyo/theutia.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ndxbn-tokyo/theutia/issues"
+	},
+	"homepage": "https://github.com/ndxbn-tokyo/theutia#readme",
+	"dependencies": {
+		"yarn": "^1.13.0"
+	}
 }
