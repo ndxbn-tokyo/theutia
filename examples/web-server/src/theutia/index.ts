@@ -1,16 +1,23 @@
 import Logger from "./Logger";
 import * as express from "express";
+import * as http from "http";
 import Container from "./Container";
 import Config from "./Config";
 
 export default class Application {
+	/**
+	 * Current Working Directory
+	 */
 	private readonly applicationRootPath: string;
 
 	/**
-	 * This logger is framework internal logger.
+	 * Application Class Internal Logger
 	 */
 	private readonly internalLogger: Logger;
 
+	/**
+	 * Dependencies Container
+	 */
 	public readonly container: Container;
 
 	public constructor(applicationRootPath: string) {
@@ -24,8 +31,10 @@ export default class Application {
 		this.container.set("config", new Config());
 	}
 
-	public async start(): Promise<string> {
-		await this.internalLogger.write("application start: " + this.applicationRootPath);
+	public async start(): Promise<http.Server> {
+		await this.internalLogger.write(
+			"application start: " + this.applicationRootPath
+		);
 
 		const webServer = express();
 		webServer.get("/", (request, response) => {
@@ -34,8 +43,6 @@ export default class Application {
 				host: request.hostname
 			});
 		});
-		webServer.listen(8000);
-
-		return "started";
+		return webServer.listen(8000);
 	}
 }
