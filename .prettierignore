@@ -15,6 +15,10 @@ LICENSE
 ## Node.js
 package-lock.json
 *.lock
+coverage/
+
+# Framework
+lib/
 
 # Not Supported File Typs
 ## Plain Text
