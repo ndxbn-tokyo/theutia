@@ -29,7 +29,8 @@
 		"typescript": "^3.3.3333"
 	},
 	"workspaces": [
-		"packages/*"
+		"packages/*",
+		"examples/*"
 	],
 	"husky": {
 		"hooks": {
