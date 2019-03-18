@@ -36,16 +36,5 @@
 		"hooks": {
 			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
 		}
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ndxbn-tokyo/theutia.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/ndxbn-tokyo/theutia/issues"
-	},
-	"homepage": "https://github.com/ndxbn-tokyo/theutia#readme"
+	}
 }
