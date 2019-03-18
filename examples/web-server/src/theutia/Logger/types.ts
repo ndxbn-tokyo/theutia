@@ -148,4 +148,4 @@ export interface LoggerAwareInterface {
  *
  * This will move `theutia/types` or `theutia/core`
  */
-export type constructor<T> = { new(...args: any[]): T };
+export type constructor<T> = { new (...args: any[]): T };

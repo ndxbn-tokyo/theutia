@@ -1,6 +1,4 @@
 import LoggerAwareTrait from "./LoggerAwareTrait";
 
 @LoggerAwareTrait()
-export default class NullLoggerAware {
-
-}
+export default class NullLoggerAware {}
