@@ -29,6 +29,11 @@
 		"preset": "ts-jest",
 		"collectCoverage": true,
 		"collectCoverageFrom": ["src/**"],
+		"coveragePathIgnorePatterns": [
+			"src/index.ts",
+			"src/server.ts",
+			"src/cli.ts"
+		],
 		"testEnvironment": "node"
 	}
 }
