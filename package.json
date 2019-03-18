@@ -12,6 +12,9 @@
 		"format": "run-s format:*",
 		"format:prettier": "prettier --write \"**/*\""
 	},
+	"dependencies": {
+		"yarn": "^1.13.0"
+	},
 	"devDependencies": {
 		"@commitlint/cli": "^7.5.2",
 		"@commitlint/config-conventional": "^7.5.0",
@@ -43,8 +46,5 @@
 	"bugs": {
 		"url": "https://github.com/ndxbn-tokyo/theutia/issues"
 	},
-	"homepage": "https://github.com/ndxbn-tokyo/theutia#readme",
-	"dependencies": {
-		"yarn": "^1.13.0"
-	}
+	"homepage": "https://github.com/ndxbn-tokyo/theutia#readme"
 }
