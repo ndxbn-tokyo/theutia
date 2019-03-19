@@ -1,0 +1,3 @@
+## Theutia CLI
+
+#### generate
