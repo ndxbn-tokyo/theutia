@@ -1,0 +1,39 @@
+{
+	"private": true,
+	"name": "web-server",
+	"version": "0.0.0",
+	"description": "",
+	"main": "lib/index.js",
+	"scripts": {
+		"start": "node lib/server.js",
+		"prestart": "npm run build",
+		"test": "jest",
+		"prebuild": "shx rm -rf lib",
+		"build": "tsc -p tsconfig.json"
+	},
+	"dependencies": {
+		"config": "^3.0.1",
+		"express": "^4.16.4",
+		"winston": "^3.2.1"
+	},
+	"devDependencies": {
+		"@types/config": "0.0.34",
+		"@types/express": "^4.16.1",
+		"@types/jest": "^24.0.11",
+		"@types/node": "^11.11.2",
+		"@types/winston": "^2.4.4",
+		"jest": "^24.5.0",
+		"shx": "^0.3.2"
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"collectCoverage": true,
+		"collectCoverageFrom": ["src/**"],
+		"coveragePathIgnorePatterns": [
+			"src/index.ts",
+			"src/server.ts",
+			"src/cli.ts"
+		],
+		"testEnvironment": "node"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"// Essentials": "",
+	"name": "theutia",
+	"version": "0.0.1",
+	"// Package Infomations": "",
+	"description": "A TypeScript Web Application Framework",
+	"keywords": [],
+	"license": "MIT",
+	"// System Compatibilities": "",
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"// Links": "",
+	"homepage": "https://github.com/ndxbn-tokyo/theutia/tree/master/packages/theutia#readme",
+	"bugs": {
+		"url": "https://github.com/ndxbn-tokyo/theutia/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ndxbn-tokyo/theutia.git"
+	},
+	"// Maintainers": "",
+	"author": "ndxbn <sitri.ndxbn@gmail.com>",
+	"contributors": [],
+	"// Files": "",
+	"files": [
+		"lib/"
+	],
+	"main": "lib/index.js",
+	"bin": "lib/cli.js",
+	"man": [],
+	"directories": {},
+	"// Tasks": "",
+	"scripts": {
+		"test": "echo \"Error: run tests from root\" && exit 1"
+	},
+	"config": {
+	},
+	"// Dependencies": ""
+}

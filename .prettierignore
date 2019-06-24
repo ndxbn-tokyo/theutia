@@ -1,0 +1,30 @@
+# Editor or IDE
+## IntelliJ project files
+.idea/
+*.iml
+## VisualStudioCode
+.vscode/
+
+# Project
+.editorconfig
+.gitignore
+.prettierignore
+LICENSE
+
+# Language Specification
+## Node.js
+package-lock.json
+*.lock
+coverage/
+
+# Framework
+lib/
+
+# Not Supported File Typs
+## Plain Text
+*.txt
+## image
+*.png
+*.jpg
+*.jpeg
+*.gif

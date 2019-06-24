@@ -1,0 +1,12 @@
+# Node.js
+node_modules
+coverage/
+
+# log files
+*.log
+
+# local config files
+*local.*
+
+# TypeScript outDir
+lib/

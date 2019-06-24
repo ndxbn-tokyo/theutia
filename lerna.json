@@ -1,0 +1,12 @@
+{
+	"useWorkspaces": true,
+	"npmClient": "yarn",
+	"version": "independent",
+	"command": {
+		"version": {
+			"allowBranch": ["master", "development"],
+			"conventionalCommits": true,
+			"message": "chore: publish %s"
+		}
+	}
+}
