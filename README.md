@@ -1,3 +1,6 @@
+しばらく更新しないので、アーカイブする。
+更新したくなったら、アンアーカイブして、このリポジトリを使用する。
+
 # theutia
 
 A TypeScript Web Application Framework
